@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             Title="Sobre"
+             BackgroundColor="{StaticResource Gray100}"
+             NavigationPage.HasNavigationBar="False">
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="20" Spacing="10">
+
+        <Label Text="Sobre o Aplicativo"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="{StaticResource Primary}" />
+
+        <Frame Padding="10" BackgroundColor="{StaticResource Gray200}" CornerRadius="10">
+            <Label Text="Este aplicativo foi desenvolvido para auxiliar no cálculo de diárias de hospedagem. Ele permite que o usuário selecione a quantidade de hóspedes, escolha a suíte e defina o período da estadia."
+                   FontSize="Medium"
+                   TextColor="Black" />
+        </Frame>
+
+        <Label Text="Desenvolvedor: Murilo toledo"
+               FontSize="Medium"
+               HorizontalOptions="Center"
+               TextColor="{StaticResource Primary}" />
+
+        <Label Text="Data de desenvolvimento: 02/11/2024"
+               FontSize="Medium"
+               HorizontalOptions="Center"
+               TextColor="{StaticResource Primary}" />
+
+        <Button Text="Voltar"
+                BackgroundColor="LightSalmon"
+                TextColor="White"
+                Clicked="OnVoltarClicked" />
+
+    </VerticalStackLayout>
+
+</ContentPage>

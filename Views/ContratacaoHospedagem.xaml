@@ -1,0 +1,34 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.ContratacaoHospedagem">
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <!-- Picker para escolher o Quarto -->
+        <Picker x:Name="pickerQuarto" Title="Escolha o Quarto">
+            <Picker.Items>
+                <x:String>Suíte Premium</x:String>
+                <x:String>Suíte Standard</x:String>
+                <x:String>Quarto Simples</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <!-- Picker para escolher o Período -->
+        <Picker x:Name="pickerPeriodo" Title="Escolha o Período">
+            <Picker.Items>
+                <x:String>1 Noite</x:String>
+                <x:String>2 Noites</x:String>
+                <x:String>3 Noites</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <!-- Entry para quantidade de Adultos -->
+        <Entry x:Name="entryAdultos" Placeholder="Número de Adultos" Keyboard="Numeric"/>
+
+        <!-- Entry para quantidade de Crianças -->
+        <Entry x:Name="entryCriancas" Placeholder="Número de Crianças" Keyboard="Numeric"/>
+
+        <!-- Botão Avançar -->
+        <Button Text="Avançar" Clicked="OnAvancarClicked"/>
+    </VerticalStackLayout>
+
+</ContentPage>

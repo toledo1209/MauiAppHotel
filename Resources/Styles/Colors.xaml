@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Definições de cores do aplicativo -->
+    <Color x:Key="Verde">#4CAF50</Color>
+    <!-- Verde -->
+
+    <Color x:Key="Primary">#3F51B5</Color>
+    <!-- Azul -->
+    <Color x:Key="PrimaryDark">#303F9F</Color>
+    <!-- Azul escuro -->
+    <Color x:Key="PrimaryDarkText">#FFFFFF</Color>
+    <!-- Texto claro -->
+    <Color x:Key="Secondary">#FF4081</Color>
+    <!-- Rosa vibrante -->
+    <Color x:Key="SecondaryDarkText">#FF80AB</Color>
+    <!-- Rosa claro -->
+
+    <Color x:Key="Tertiary">#FFEB3B</Color>
+    <!-- Amarelo -->
+
+    <Color x:Key="White">#FFFFFF</Color>
+    <!-- Branco -->
+    <Color x:Key="Black">#000000</Color>
+    <!-- Preto -->
+    <Color x:Key="Magenta">#D600AA</Color>
+    <!-- Magenta -->
+    <Color x:Key="MidnightBlue">#190649</Color>
+    <!-- Azul profundo -->
+    <Color x:Key="OffBlack">#1F1F1F</Color>
+    <!-- Quase preto -->
+
+    <Color x:Key="Gray100">#E1E1E1</Color>
+    <!-- Cinza claro -->
+    <Color x:Key="Gray200">#C8C8C8</Color>
+    <!-- Cinza -->
+    <Color x:Key="Gray300">#ACACAC</Color>
+    <!-- Cinza médio -->
+    <Color x:Key="Gray400">#919191</Color>
+    <!-- Cinza escuro -->
+    <Color x:Key="Gray500">#6E6E6E</Color>
+    <!-- Cinza mais escuro -->
+    <Color x:Key="Gray600">#404040</Color>
+    <!-- Cinza ainda mais escuro -->
+    <Color x:Key="Gray900">#212121</Color>
+    <!-- Cinza muito escuro -->
+    <Color x:Key="Gray950">#141414</Color>
+    <!-- Quase preto -->
+
+    <!-- Definições de pincéis para uso em controles -->
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
+    <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}"/>
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+
+    <SolidColorBrush x:Key="Gray100Brush" Color="{StaticResource Gray100}"/>
+    <SolidColorBrush x:Key="Gray200Brush" Color="{StaticResource Gray200}"/>
+    <SolidColorBrush x:Key="Gray300Brush" Color="{StaticResource Gray300}"/>
+    <SolidColorBrush x:Key="Gray400Brush" Color="{StaticResource Gray400}"/>
+    <SolidColorBrush x:Key="Gray500Brush" Color="{StaticResource Gray500}"/>
+    <SolidColorBrush x:Key="Gray600Brush" Color="{StaticResource Gray600}"/>
+    <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900}"/>
+    <SolidColorBrush x:Key="Gray950Brush" Color="{StaticResource Gray950}"/>
+</ResourceDictionary>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.ResumoHospedagem"
+             Title="Resumo da Hospedagem">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Resumo da Reserva"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <Frame Padding="10" BackgroundColor="{StaticResource Gray200}" CornerRadius="10">
+            <VerticalStackLayout>
+                <Label x:Name="lblAdultos" FontSize="Medium" TextColor="Black" />
+                <Label x:Name="lblCriancas" FontSize="Medium" TextColor="Black" />
+                <Label x:Name="lblQuarto" FontSize="Medium" TextColor="Black" />
+                <Label x:Name="lblPeriodo" FontSize="Medium" TextColor="Black" />
+                <Label x:Name="lblValor" FontSize="Medium" TextColor="Black" />
+            </VerticalStackLayout>
+        </Frame>
+
+        <Button Text="Finalizar Reserva"
+                BackgroundColor="DarkSlateBlue"
+                TextColor="White"
+                Clicked="OnFinalizarClicked" />
+    </VerticalStackLayout>
+
+</ContentPage>
+    
